@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*/test_*
+#*_test.go
+
+# Output of the go coverage tool when used with -coverprofile
+coverage.out
+
+# Dependency directories (if using Go modules, these are ignored by default)
+/vendor/
+
+# IDE and editor directories/files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files and databases
+*.log
+*.db
+
+# Miscellaneous
+tmp/
+/tmp/
